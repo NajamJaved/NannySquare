@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbarclass ul li a {
+  color: #FFF !important;
+  margin: 10px;
+}
+
+.navdown {
+  margin-top: 130px;
+}
+
+li {
+  text-decoration: none;
+  color: white;
+  list-style: none !important;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.h1 {
+  font-size: 64px;
+  font-family: Pacifico;
+}
+
+.img {
+  background-image: url(images/bg1.png);
+  height: 537px;
+}
+
+.logintext {
+  color: #FFF;
+  font-size: 64px;
+  font-family: Pacifico;
+}
+
+.logintext2 {
+
+  text-align: center;
+  font-family: Pacifico;
+  color: #0C1A7D;
+  font-size: 64px;
+}
+
+.loginform {}
+
+.loginbutton button {
+  background: #0C1A7D;
+
+}
+.imgside{
+  height: 150px!important;
+}
+
+.buttontop {
+  background: #0C1A7D;
+  border: none;
+}
+
+.forgettext {
+  color: black;
+}
+
+.line img {
+  padding: 0px;
+  margin-top: -35px;
+}
+
+.carelogin p {
+  font-family: Pacifico;
+  color: #0C1A7D;
+  font-size: 44px;
+}
+
+.carelogin {
+  padding-top: 35px;
+}
+
+.imageandtext {
+  background-image: url("images/bgimage.png");
+  background-size: 100% 100%;
+  padding: 5px;
+}
+
+.imageandtext .textp1 {
+  font-family: Pacifico;
+  color: #FFF;
+  font-size: 44px;
+}
+
+.imageandtext .textp2 {
+  color: #FFF;
+  font-size: 18px;
+  font-family: Poppins;
+  margin-top: -20px;
+
+}
+
+.borderdot {
+  border-style: dashed;
+  margin: 5px;
+  border-color: #FFF;
+  border-radius: 15px;
+}
+
+.alltext {
+  margin-top: -70px;
+}
+
+.mainconta {
+  padding-bottom: 50px;
+}
+
+.registerbtn {
+  background: #0C1A7D;
+}
+
+footer {
+  background-image: url("images/footer.png");
+  background-size: 100% 100%;
+}
+
+
+.searchbar {
+  width: 450px;
+}
+
+.detstart {
+  margin-left: -127px !important;
+  /* position: absolute; */
+}
+
+.allfooter {
+  padding: 150px 0px 100px 0px;
+  margin-top: 400px;
+}
+
+.textfooter-2 {
+  margin-top: -18px;
+}
+
+.signuptypebutton {
+  display: flex;
+  align-items: center;
+}
+
+.signupbtn {
+  display: flex;
+  justify-content: center;
+  margin-right: -350px;
+}
+
+
+@media (max-width: 576px) {
+  .h1 {
+    font-size: 36px;
+  }
+
+  .logintext {
+    font-size: 36px;
+  }
+
+  .logintext2 {
+    font-size: 36px;
+  }
+
+  .imageandtext .textp1 {
+    font-size: 28px;
+  }
+
+  .imageandtext .textp2 {
+    font-size: 14px;
+  }
+
+  .searchbar {
+    width: 100%;
+  }
+
+  .detstart {
+    margin-left: 0 !important;
+  }
+
+  .footerclass {
+    font-size: 12px;
+  }
+
+  .carelogin p {
+    font-size: 20px;
+  }
+
+  .logintypebutton img {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+
+  }
+
+  .logintypebutton {
+    color: #007bff;
+    margin-right: 100px;
+
+  }
+
+  .searchbar {
+    width: 350px;
+  }
+
+  .detstart {
+    margin-left: -88px !important;
+    padding: 0px;
+  }
+
+  .signuptypebutton {
+    margin-left: 140px;
+  }
+
+  .signuptypebutton img {
+    height: 100px;
+  }
+
+  .carelogin img {
+    padding: 10px;
+  }
+
+  .allfooter {
+    padding-left: 20px;
+  }
+
+  footer {
+    background-color: #0C1A7D;
+  }
+}
+
+@media (max-width: 414px) {
+  .h1 {
+    font-size: 32px;
+  }
+
+  .logintext {
+    font-size: 32px;
+  }
+
+  .logintext2 {
+    font-size: 32px;
+  }
+
+  .imageandtext .textp1 {
+    font-size: 24px;
+  }
+
+  .imageandtext .textp2 {
+    font-size: 12px;
+  }
+
+  .navbarclass {
+    margin-right: 0 !important;
+  }
+
+  .footerclass {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 390px) {
+  .h1 {
+    font-size: 30px;
+  }
+
+  .logintext p {
+    font-size: 10px !important;
+  }
+
+  .logintext2 {
+    font-size: 30px;
+  }
+
+  .imageandtext .textp1 {
+    font-size: 22px;
+  }
+
+  .imageandtext .textp2 {
+    font-size: 11px;
+  }
+
+  .navbarclass {
+    margin-right: 0 !important;
+  }
+
+  .footerclass {
+    font-size: 10px;
+  }
+
+  .line img {
+    display: none;
+  }
+
+  footer {
+    background-color: #0C1A7D;
+    padding-top: -100px;
+  }
+
+  .signuptypebutton img {
+    height: 100px;
+  }
+
+  .formdata {
+    margin-top: 30px;
+  }
+
+  .carelogin {
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .logintypebutton {
+    color: #007bff;
+    margin-right: 35px;
+
+  }
+
+  .imageclas {
+    padding: 10px;
+  }
+
+  .allfooter {
+    margin-left: 20px;
+  }
+
+  .signbtn {
+    margin-left: -135px;
+  }
+
+  .loginbutton {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 375px) {
+  .h1 {
+    font-size: 28px;
+  }
+
+  .logintext {
+    font-size: 28px;
+  }
+
+  .logintext2 {
+    font-size: 28px;
+  }
+
+  .imageandtext .textp1 {
+    font-size: 20px;
+  }
+
+  .imageandtext .textp2 {
+    font-size: 10px;
+  }
+
+  .navbarclass {
+    margin-right: 0 !important;
+  }
+
+  .footerclass {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .h1 {
+    font-size: 26px;
+  }
+
+  .logintext {
+    font-size: 26px;
+  }
+
+  .logintext2 {
+    font-size: 26px;
+  }
+
+  .imageandtext .textp1 {
+    font-size: 18px;
+  }
+
+  .imageandtext .textp2 {
+    font-size: 9px;
+  }
+
+  .navbarclass {
+    margin-right: 0 !important;
+  }
+
+  .footerclass {
+    font-size: 9px;
+  }
+}
+
+/*!
+ * Bootstrap Image Checkbox v0.1.0 (https://iqbalfn.github.io/bootstrap-image-checkbox/)
+ * Copyright 2019 Iqbal Fauzi
+ * Licensed under MIT (https://github.com/iqbalfnn/bootstrap-image-checkbox/blob/master/LICENSE)
+ */
+.custom-control.image-checkbox {
+  position: relative;
+  padding-left: 0;
+}
+
+.custom-control.image-checkbox .custom-control-input:checked~.custom-control-label:after,
+.custom-control.image-checkbox .custom-control-input:checked~.custom-control-label:before {
+  opacity: 1;
+}
+
+.custom-control.image-checkbox label {
+  cursor: pointer;
+}
+
+.custom-control.image-checkbox label:before {
+  border-color: #007bff;
+  background-color: #007bff;
+}
+
+.custom-control.image-checkbox label:after,
+.custom-control.image-checkbox label:before {
+  transition: opacity .3s ease;
+  opacity: 0;
+  left: .25rem;
+}
+
+.custom-control.image-checkbox label:focus,
+.custom-control.image-checkbox label:hover {
+  opacity: .8;
+}
+
+.custom-control.image-checkbox label img {
+  border-radius: 2.5px;
+}
+
+.form-group-image-checkbox.is-invalid label {
+  color: #dc3545;
+}
+
+.form-group-image-checkbox.is-invalid .invalid-feedback {
+  display: block;
+}
+
+/*# sourceMappingURL=bootstrap-image-checkbox.css.map */
